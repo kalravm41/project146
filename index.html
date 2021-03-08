@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene background= "color: grey">
+            
+        <a-entity position="0 0 20">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!-- <a-sky src= '#face'></a-sky> -->
+
+        <a-entity>
+            <a-box position= '0 8 0' color= '#40a6d7' height= '6' width= '7'/>
+        </a-entity>
+
+        <a-entity>
+            <a-box position= '0 -2 0' color= '#40a6d7' height= '10' width= '10'/>
+        </a-entity>
+
+        <a-entity>
+            <a-box position= '0 1 -2' color= 'yellow' height= '10' width= '2'/>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position= '7 -1 -2' color= 'yellow' height= '10' width= '2' rotation= '0 0 55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position= '-7 -1 -2' color= 'yellow' height= '10' width= '2' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '-11.8 -4.3 -2' color= 'orange' radius= '1.5' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '11.8 -4.3 -2' color= 'orange' radius= '1.5' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position= '-14.7 -2.2 -2.5' color= 'yellow' height= '5' width= '2' rotation= '0 0 55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position= '14.7 -2.2 -2.5' color= 'yellow' height= '5' width= '2' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '17.3 0.2 -1.5' color= 'orange' radius= '2.5' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '-17.3 0.5 -1.5' color= 'orange' radius= '2.5' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position= '-3 -10 -2' color= 'yellow' height= '8' width= '2'/>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position= '3 -10 -2' color= 'yellow' height= '8' width= '2'/>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '3 -13 0' color= 'orange' radius= '2.5' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '-3 -13 0' color= 'orange' radius= '2.5' rotation= '0 0 -55'/>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position= '0 13 -2' color= 'black' height= '4' width= '0.01' radius= '0.2'
+            animation= 'property: position; from : 0 13 -2; to: 1 13 -2; dir: alternate; loop: true; dur: 1000'
+            />
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '0 14 0' color= 'red' radius= '1' rotation= '0 0 -55'
+            animation= 'property: position; from : 0 14 0; to: 1 14 0; dir: alternate; loop: true; dur: 1000'
+            />
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '1.5 8 5' color= 'white' radius= '0.5' rotation= '0 0 -55'
+            animation= 'property: position; from : 1.5 8 5; to: 1.5 7.5 5; dir: alternate; loop: true; dur: 1000'
+            />
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position= '-1.5 8 5' color= 'white' radius= '0.5' rotation= '0 0 -55' \
+            animation= 'property: position; from : -1.5 8 5; to: -1.5 7.5 5; dir: alternate; loop: true; dur: 1000'/>
+        </a-entity>
+
+        </a-scene>
+    </body>
+</html>
